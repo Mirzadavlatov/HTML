@@ -1,0 +1,18 @@
+body{
+    margin-left: 400px;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+td{
+    border: 1px solid black;
+    padding: 20px; 
+}
+tbody tr:nth-child(3) td:nth-child(3){
+    background-color: red;
+}
